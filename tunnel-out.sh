@@ -30,7 +30,7 @@ warp-cli registration new
 bash <(curl -Ls  https://raw.githubusercontent.com/Panhuqusyxh/xray/main/xrayrpro.sh)
 
 clear 
-echo "Vui Lòng Mở Địa Chỉ IP IN bằng lệnh "
-echo "warp-cli  tunnel ip add 'IP' "
+echo "          Vui Lòng Mở Địa Chỉ IP IN bằng lệnh "
+echo "          warp-cli  tunnel ip add 'IP' "
 echo "DEMO:     warp-cli  tunnel ip add 1.1.1.1   "
 
