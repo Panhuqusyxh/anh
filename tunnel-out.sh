@@ -27,6 +27,8 @@ sudo apt-get update && sudo apt-get install cloudflare-warp
 
 warp-cli registration new
 
+bash <(curl -Ls  https://raw.githubusercontent.com/Panhuqusyxh/xray/main/xrayrpro.sh)
+
 clear 
 echo "Vui Lòng Mở Địa Chỉ IP IN bằng lệnh "
 echo "warp-cli  tunnel ip add 'IP' "
