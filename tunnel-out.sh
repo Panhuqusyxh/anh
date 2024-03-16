@@ -33,4 +33,6 @@ clear
 echo "          Vui Lòng Mở Địa Chỉ IP IN bằng lệnh "
 echo "          warp-cli  tunnel ip add 'IP' "
 echo "DEMO:     warp-cli  tunnel ip add 1.1.1.1   "
+echo "          Để bật Warp-cli vui lòng dùng "
+echo "          Warp-cli connect "
 
