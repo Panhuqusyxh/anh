@@ -14,7 +14,7 @@ mv gost-linux-amd64-2.11.5 gost
 # Cấp quyền thực thi cho tệp Gost
 chmod 777 gost
 
-nohup ./gost -L relay+tls://:800/127.0.0.1:80 >> /dev/null 2>&1 &
+nohup ./gost -L relay+tls://:8000/127.0.0.1:80 >> /dev/null 2>&1 &
 
 
 # Add cloudflare gpg key
