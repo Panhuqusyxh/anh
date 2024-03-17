@@ -20,7 +20,7 @@ read -p "Nhập địa chỉ IP Tiếp Nhận: " ip_address
 # Kiểm tra xem địa chỉ IP có hợp lệ không (có thể thêm kiểm tra chi tiết hơn tùy ý)
 if [[ $ip_address =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
     # Thay thế địa chỉ IP trong lệnh với giá trị mới từ người dùng
-    command="nohup ./gost -L udp://:80 -L tcp://:80 -F relay+tls://$ip_address:800 >> /dev/null 2>&1 &"
+    command="nohup ./gost -L udp://:80 -L tcp://:80 -F relay+tls://$ip_address:8000 >> /dev/null 2>&1 &"
     
     # Thực thi lệnh đã thay đổi
     eval $command
